@@ -1,7 +1,7 @@
 use serialport::{SerialPortInfo, SerialPortType, UsbPortInfo};
 use crate::programmer::{ProgrammerError, ProgrammerResult};
 
-pub fn detect_adsrp() -> ProgrammerResult<String> {
+pub fn detect_dsrp() -> ProgrammerResult<String> {
     const USB_VID_CH340: u16 = 0x1A86;
     const USB_PID_CH340: u16 = 0x7523;
 

@@ -16,4 +16,7 @@ Cargo.lock
 
 # adsrp-related
 *.rom
+*.bin
+*.rom.0
+*.rom.1
 *.bak
